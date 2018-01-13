@@ -55,8 +55,8 @@ public class LoginActivity extends AppCompatActivity {
                     // User is signed out
                     Log.d(TAG, "onAuthStateChanged:signed_out");
 
-                }//oast.makeText(getApplicationContext(),"Successfully signed Out",Toast.LENGTH_SHORT).show();
-                // ...
+                }
+
         }
     };
         btnSignIn.setOnClickListener(new View.OnClickListener() {
