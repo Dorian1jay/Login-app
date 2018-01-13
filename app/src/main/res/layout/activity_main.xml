@@ -9,7 +9,7 @@ android:layout_height="match_parent"
 android:gravity="center_horizontal"
 android:orientation="vertical"
 
-tools:context="com.example.jay.loginapp.MainActivity">
+tools:context="com.example.jay.loginapp.LoginActivity">
 
 <ScrollView
     android:id="@+id/login_form"
@@ -40,12 +40,12 @@ tools:context="com.example.jay.loginapp.MainActivity">
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/password"
-            android:imeActionId="@+id/login"
             android:imeActionLabel="@string/action_sign_in_short"
             android:imeOptions="actionUnspecified"
             android:inputType="textPassword"
             android:maxLines="1"
             />
+        <!--android:imeActionId="@+id/login"-->
 
         <Button
             android:id="@+id/email_sign_in_button"
@@ -64,6 +64,15 @@ tools:context="com.example.jay.loginapp.MainActivity">
             android:layout_marginTop="16dp"
             android:text="@string/sign_out"
             android:textStyle="bold"/>
+
+        <!--<Button-->
+            <!--android:id="@+id/btnMenu"-->
+            <!--style="?android:textAppearanceSmall"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:text="Menu"-->
+            <!--android:textStyle="bold"/>-->
 
 
     </LinearLayout>

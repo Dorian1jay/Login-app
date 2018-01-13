@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#32ae27</color>
+    <color name="colorlabel">#27ae9a</color>
+    <color name="colorlabelbk">#8e27ae</color>
+    <color name="bordercolor">#314b2e</color>
+    <color name="Contactbackground">#83e9d9</color>
+
+
 </resources>

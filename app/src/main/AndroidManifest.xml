@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/jam_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/jam_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -18,6 +18,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ViewProfileActivity"></activity>
+        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".addToDatabase"></activity>
+        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".UpdateProfileActivity"></activity>
+        <activity android:name=".ContactActivity"></activity>
+        <activity android:name=".SearchmenuActivity"></activity>
+        <activity android:name=".ViewOtherProfileActivity"></activity>
+        <activity android:name=".test"></activity>
+        <activity android:name=".ChatActivity"></activity>
+
+
     </application>
 
 </manifest>
